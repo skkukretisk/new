@@ -9,7 +9,7 @@ import google.generativeai as genai
 import psycopg2
 
 
-GOOGLE_API_KEY = os.environ["ok"]
+GOOGLE_API_KEY = "AIzaSyCHLoaGf5AU2QRwKMP-PFbUD5You8Zd1DA"
 # AIzaSyCHLoaGf5AU2QRwKMP-PFbUD5You8Zd1DA
 
 def ai(input,info):
