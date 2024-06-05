@@ -8,6 +8,6 @@ class DefaultConfig:
     """ Bot Configuration """
 
     PORT = 3978
-    APP_ID = os.environ.get("MicrosoftAppId", "dec529fb-85bb-442c-8f47-e57f6fc50e6a")
-    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "LZQ8Q~K3msg3xWaExWIxiUddAsDK4kRKg_wk1aHV")
+    APP_ID = os.environ.get("MicrosoftAppId", "3a762fca-0a52-45ac-bee0-0965db163387")
+    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "-j-8Q~Fko2fD2uiDYdGZByCcvDCm2zqWue3zxdeT")
     EXPIRE_AFTER_SECONDS = os.environ.get("ExpireAfterSeconds", 300)
