@@ -3,5 +3,5 @@ psycopg2
 langchain
 langchain_community
 langchain-google-genai
-google.genrativeai
+google-generativeai
 aiohttp
