@@ -4,3 +4,4 @@ langchain
 langchain_community
 langchain-google-genai
 google.genrativeai
+aiohttp
