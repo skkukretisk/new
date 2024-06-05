@@ -18,7 +18,7 @@ from langchain.tools import BaseTool, StructuredTool, tool
 from langchain.pydantic_v1 import BaseModel, Field
 from googleai import ai
 
-GOOGLE_API_KEY = os.environ["ok"]
+GOOGLE_API_KEY = "AIzaSyCHLoaGf5AU2QRwKMP-PFbUD5You8Zd1DA"
 
 def run_conversation(ask, info):
   llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=GOOGLE_API_KEY, temperature=0.0)
